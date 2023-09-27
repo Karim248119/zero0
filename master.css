@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.adidas{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.links li {
+    margin-bottom: 10px;
+
+}
+
+.links a {
+    text-transform: uppercase;
+    border-bottom: 5px solid black;
+    text-decoration: none;
+    font-size: 20;
+    color: black;
+}
+.navToggle {
+    font-size: 30px;
+    position: absolute;
+    background-color: transparent;
+    background-color: transparent;
+    top: 10px;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.links{
+    list-style:none;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    transition: all 1s;
+}
+.active_nav{
+    height: 8rem;
+        background-color: blue;
+}
